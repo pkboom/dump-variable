@@ -1,0 +1,29 @@
+{
+    "name": "pkboom/dump-with-name",
+    "description": "Dump with variable name",
+    "keywords": [
+        "pkboom",
+        "dump-with-name"
+    ],
+    "homepage": "https://github.com/pkboom/dump-with-name",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Keunbae Park",
+            "email": "ppotpo@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "symfony/finder": "^6.0",
+        "symfony/var-dumper": "^6.0"
+    },
+    "autoload": {
+        "files": [
+            "src/functions.php"
+        ]
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
