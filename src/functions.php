@@ -13,7 +13,7 @@ function dv($arg)
     dump([$match[1] => $arg]);
 }
 
-function ddv($arg)
+function dvd($arg)
 {
     dv($arg);
 

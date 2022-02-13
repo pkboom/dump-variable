@@ -1,15 +1,25 @@
-# Simple test creator
+# Dump variable
 
-DumpWithName is a simple test creator for packages. It will create tests for every file in 'src' folder. It skips existing tests.
+Sometimes you might want to dump a variable with a name in php in the same way js does:
 
-You can create tests.
+```js
+let name = "foo";
 
-```bash
-dump-with-name create
+console.log({ name });
+
+// { name: 'foo'}
 ```
 
-## Installation
+You can do this with `dv()` in php:
 
-```bash
-composer require pkboom/dump-with-name
+```php
+$name = 'foo';
+
+// dump with variable
+dv($name);
+
+// [ 'name' => 'foo' ]
+
+// dd with variable
+dvd($name);
 ```

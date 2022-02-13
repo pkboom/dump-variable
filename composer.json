@@ -1,11 +1,11 @@
 {
-    "name": "pkboom/dump-with-name",
+    "name": "pkboom/dump-variable",
     "description": "Dump with variable name",
     "keywords": [
         "pkboom",
-        "dump-with-name"
+        "dump-variable"
     ],
-    "homepage": "https://github.com/pkboom/dump-with-name",
+    "homepage": "https://github.com/pkboom/dump-variable",
     "license": "MIT",
     "authors": [
         {
