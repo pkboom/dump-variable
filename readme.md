@@ -23,3 +23,9 @@ dv($name);
 // dd with variable
 dvd($name);
 ```
+
+## Installation
+
+```bash
+composer require pkboom/dump-variable
+```
